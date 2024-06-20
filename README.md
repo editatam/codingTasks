@@ -1,4 +1,4 @@
-## Categorising countries using K-means Clustering
+# Categorising countries using K-means Clustering
 
 ## Objective  
 To group countries using socio-economic and health factors to determine the development status of the country.
@@ -6,7 +6,6 @@ To group countries using socio-economic and health factors to determine the deve
 ### Data Source
 
 The data used in this task was orginally sourced from Help.NGO. This international non-governmental organisation specialises in emergency response, preparedness, and risk mitigation.  
-
 ### Dataset Attributes
 - country: name of the country
 - child_mort: death of children under 5 years of age per 1000 live births
@@ -19,7 +18,7 @@ The data used in this task was orginally sourced from Help.NGO. This internation
 - total_fer: the number of children that would be born to each woman if the current age-fertility rates remains the same
 - gdpp: the GDP per capita. Calculated as the Total GDP divided by the total population.
 
-# Required libraries
+### Required libraries
 - numpy 
 - pandas
 - matplotlib
