@@ -1,4 +1,4 @@
-## Categorising countries
+## Categorising countries using K-means Clustering
 
 ## Objective  
 To group countries using socio-economic and health factors to determine the development status of the country.
@@ -18,3 +18,19 @@ The data used in this task was orginally sourced from Help.NGO. This internation
 - life_expec: the average number of years a new born child would live if the current mortality patterns remain the same
 - total_fer: the number of children that would be born to each woman if the current age-fertility rates remains the same
 - gdpp: the GDP per capita. Calculated as the Total GDP divided by the total population.
+
+# Import libraries
+import numpy as np
+import pandas as pd
+
+import warnings
+warnings.filterwarnings(action='ignore', category=FutureWarning)
+import os
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+from sklearn import metrics
+from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_score
+from sklearn.preprocessing import MinMaxScaler
